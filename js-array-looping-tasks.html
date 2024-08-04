@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Lopping taks</title>
+</head>
+<body>
+    <center>
+        <h1>Array lopping tasks</h1>
+    </center>
+
+    <script>
+        // Write a JavaScript code to reverse the array colors without using the reverse method.
+
+     const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+
+     const rev_color = [];
+     for(const prop of colors){
+        rev_color.unshift(prop);
+     }
+    //  console.log(rev_color)
+
+    //  Write a JavaScript code to get the even numbers from an array using any looping technique.
+
+     const numbers = [12, 98, 5, 41, 23, 78, 46];
+     const new_num = [];
+
+     for(const num of numbers){
+        // const paiciNew = new_num.push(num);
+        
+        if(num % 2 == 0){
+            new_num.push(num);
+            console.log(new_num)
+        }
+     }
+     
+     
+    </script>
+</body>
+</html>
